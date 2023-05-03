@@ -1,10 +1,5 @@
 package 链表
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func removeElements(head *ListNode, val int) *ListNode {
 	node := &ListNode{}
 	node.Next = head
